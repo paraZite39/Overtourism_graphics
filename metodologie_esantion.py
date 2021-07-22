@@ -7,7 +7,7 @@ sns.set()
 sns.set_style("darkgrid")
 sns.set_palette("pastel")
 
-rasp_dataframe = pd.read_excel(r'C:\Users\User\Desktop\Supraturismul în Cluj-Napoca (răspunsuri).xlsx')
+rasp_dataframe = pd.read_excel(r'Supraturismul în Cluj-Napoca (răspunsuri).xlsx')
 
 fig, ax = plt.subplots(3, 2, figsize=(8,8))
 fig.suptitle("Profilul respondenților")
